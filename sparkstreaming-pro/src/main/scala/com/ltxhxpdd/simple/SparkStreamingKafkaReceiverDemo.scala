@@ -1,10 +1,11 @@
-package com.ltxhxpdd
+package com.ltxhxpdd.simple
 
+import com.ltxhxpdd.Config
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.dstream.ReceiverInputDStream
-import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.streaming.kafka.KafkaUtils
+import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 object SparkStreamingKafkaReceiverDemo {
   def main(args: Array[String]): Unit = {
@@ -16,10 +17,14 @@ object SparkStreamingKafkaReceiverDemo {
     val streamingContext: StreamingContext = new StreamingContext(conf, Seconds(4))
     val inputStream: ReceiverInputDStream[(String, String)] = KafkaUtils.createStream(streamingContext, Config.zkQuorum, Config.grpupId, Config.topics)
 
-    inputStream.flatMap { case (key, value) => {
-      value.split(" ")
-    }
-    }.map((_, 1)).reduceByKey(_ + _).print()
+
+
+    //    inputStream.flatMap { case (key, value) => {
+    //      value.split(" ")
+    //    }
+    //    }.map((_, 1)).reduceByKey(_ + _).print()
+
+    inputStream.flatMap(_._2.split(" ")).map((_, 1)).reduceByKey(_ + _).print()
 
     streamingContext.start()
     streamingContext.awaitTermination()
