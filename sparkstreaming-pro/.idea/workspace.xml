@@ -30,59 +30,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SparkStreamingDirectWithZooPersit.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/zookeeper/SparkStreamingDirectWithZooPersit.scala">
+      <file leaf-file-name="CombineByKey.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/keyfunc/CombineByKey.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+            <state relative-caret-position="266">
+              <caret line="35" column="35" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="35" selection-end-column="35" />
               <folding>
-                <element signature="e#32#58#0" expanded="true" />
+                <element signature="e#30#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/Config.scala">
+      <file leaf-file-name="AggregateByKey.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/keyfunc/AggregateByKey.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="475">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#30#69#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputDStream.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.2.2/spark-streaming_2.11-2.2.2-sources.jar!/org/apache/spark/streaming/dstream/InputDStream.scala">
+      <file leaf-file-name="SparkOffsetUtil.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/SparkOffsetUtil.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-621">
-              <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KafkaUtils.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-8_2.11/2.2.2/spark-streaming-kafka-0-8_2.11-2.2.2-sources.jar!/org/apache/spark/streaming/kafka/KafkaUtils.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="396" column="50" selection-start-line="396" selection-start-column="50" selection-end-line="396" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DStream.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.2.2/spark-streaming_2.11-2.2.2-sources.jar!/org/apache/spark/streaming/dstream/DStream.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OffsetRange.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-8_2.11/2.2.2/spark-streaming-kafka-0-8_2.11-2.2.2-sources.jar!/org/apache/spark/streaming/kafka/OffsetRange.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+            <state relative-caret-position="1463">
+              <caret line="77" column="28" lean-forward="true" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+              <folding>
+                <element signature="e#22#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +69,17 @@
       <file leaf-file-name="RDD.scala" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.2/spark-core_2.11-2.2.2-sources.jar!/org/apache/spark/rdd/RDD.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-743">
-              <caret line="271" column="29" lean-forward="true" selection-start-line="271" selection-start-column="29" selection-end-line="271" selection-end-column="29" />
+            <state relative-caret-position="157">
+              <caret line="1859" column="8" selection-start-line="1859" selection-start-column="8" selection-end-line="1859" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PairRDDFunctions.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.2/spark-core_2.11-2.2.2-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="612" column="6" selection-start-line="612" selection-start-column="6" selection-end-line="612" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -101,6 +89,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>createDirectStream</find>
+      <find>offsetRange</find>
+      <find>scalikejdbc</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -120,9 +110,19 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/zookeeper/CuratorTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/zookeeper/CuratorClient.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/zookeeper/CuratorUtils.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/Config.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/zookeeper/SparkStreamingDirectWithZooPersit.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/exactly/Test.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/Config.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/exactly/KafkaConsumerIdempotent.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/exactly/KafkaOffsetTransanction.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/keyfunc/UpdateStateByKey.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/keyfunc/reduceByKeyAndWindow.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/keyfunc/gbk.txt" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/keyfunc/SomeTransformationOps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/keyfunc/CombineByKey.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/keyfunc/AggregateByKey.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/SparkOffsetUtil.scala" />
       </list>
     </option>
   </component>
@@ -165,18 +165,18 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="2103" />
+    <option name="y" value="62" />
+    <option name="width" value="1928" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,7 +217,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="ltxhxpdd" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="keyfunc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparkstreaming-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparkstreaming-pro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,7 +235,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="I:/大数据视频/光环大数据/在线计算/spark/2019-03-11-[bigdata]/代码/spark-study-1809" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -249,53 +255,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkStreamingDirectWithZooPersit">
-    <configuration name="CuratorTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.ltxhxpdd.zookeeper.CuratorTest" />
+  <component name="RunManager" selected="Application.AggregateByKey">
+    <configuration name="AggregateByKey" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ltxhxpdd.keyfunc.AggregateByKey" />
       <module name="sparkstreaming-pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ltxhxpdd.zookeeper.*" />
+          <option name="PATTERN" value="com.ltxhxpdd.keyfunc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SparkStreamingDirectWithZooPersit" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.ltxhxpdd.zookeeper.SparkStreamingDirectWithZooPersit" />
+    <configuration name="CombineByKey" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ltxhxpdd.keyfunc.CombineByKey" />
       <module name="sparkstreaming-pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ltxhxpdd.zookeeper.*" />
+          <option name="PATTERN" value="com.ltxhxpdd.keyfunc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SparkStreamingKafkaDirectDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.ltxhxpdd.simple.SparkStreamingKafkaDirectDemo" />
+    <configuration name="SomeTransformationOps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ltxhxpdd.keyfunc.SomeTransformationOps" />
       <module name="sparkstreaming-pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ltxhxpdd.simple.*" />
+          <option name="PATTERN" value="com.ltxhxpdd.keyfunc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SparkStreamingKafkaReceiverDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.ltxhxpdd.simple.SparkStreamingKafkaReceiverDemo" />
+    <configuration name="UpdateStateByKey" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ltxhxpdd.keyfunc.UpdateStateByKey" />
       <module name="sparkstreaming-pro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ltxhxpdd.simple.*" />
+          <option name="PATTERN" value="com.ltxhxpdd.keyfunc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="reduceByKeyAndWindow" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ltxhxpdd.keyfunc.reduceByKeyAndWindow" />
+      <module name="sparkstreaming-pro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ltxhxpdd.keyfunc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -336,17 +353,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SparkStreamingKafkaReceiverDemo" />
-      <item itemvalue="Application.SparkStreamingKafkaDirectDemo" />
-      <item itemvalue="Application.CuratorTest" />
-      <item itemvalue="Application.SparkStreamingDirectWithZooPersit" />
+      <item itemvalue="Application.UpdateStateByKey" />
+      <item itemvalue="Application.reduceByKeyAndWindow" />
+      <item itemvalue="Application.SomeTransformationOps" />
+      <item itemvalue="Application.CombineByKey" />
+      <item itemvalue="Application.AggregateByKey" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SparkStreamingDirectWithZooPersit" />
-        <item itemvalue="Application.CuratorTest" />
-        <item itemvalue="Application.SparkStreamingKafkaDirectDemo" />
-        <item itemvalue="Application.SparkStreamingKafkaReceiverDemo" />
+        <item itemvalue="Application.AggregateByKey" />
+        <item itemvalue="Application.CombineByKey" />
+        <item itemvalue="Application.SomeTransformationOps" />
+        <item itemvalue="Application.reduceByKeyAndWindow" />
+        <item itemvalue="Application.UpdateStateByKey" />
       </list>
     </recent_temporary>
   </component>
@@ -363,12 +382,13 @@
       <workItem from="1586074482320" duration="2084000" />
       <workItem from="1586076639198" duration="3045000" />
       <workItem from="1586093385992" duration="6743000" />
-      <workItem from="1586100191137" duration="2082000" />
+      <workItem from="1586100191137" duration="2471000" />
+      <workItem from="1586134781624" duration="16517000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13954000" />
+    <option name="totallyTimeSpent" value="30860000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,24 +414,24 @@
       <window_info id="Structure" order="1" sideWeight="0.5016234" side_tool="true" weight="0.14072494" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24509804" />
       <window_info anchor="bottom" x="1942" y="369" width="1876" height="302" id="TODO" order="6" type="WINDOWED" weight="0.32897604" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.2788671" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.34858388" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24618736" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.251634" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837664" weight="0.02292111" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.5686275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.18123667" />
       <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info active="true" id="ZooKeeper" order="2" visible="true" weight="0.11727079" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.50108933" side_tool="true" weight="0.14072494" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="ZooKeeper" order="2" visible="true" weight="0.16577825" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -429,6 +449,19 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/keyfunc/CombineByKey.scala</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="ZooKeeperConfig">
     <option name="host" value="hadoop-1.gwmfc.com:2181,hadoop-2.gwmfc.com:2181,hadoop-3.gwmfc.com:2181" />
     <option name="port" value="2181" />
@@ -438,6 +471,51 @@
     <option name="tooltip" value="true" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/zookeeper/SparkStreamingDirectWithZooPersit.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+          <folding>
+            <element signature="e#32#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.2.2/spark-streaming_2.11-2.2.2-sources.jar!/org/apache/spark/streaming/dstream/InputDStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-8_2.11/2.2.2/spark-streaming-kafka-0-8_2.11-2.2.2-sources.jar!/org/apache/spark/streaming/kafka/KafkaUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7524">
+          <caret line="396" column="50" selection-start-line="396" selection-start-column="50" selection-end-line="396" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.2.2/spark-streaming_2.11-2.2.2-sources.jar!/org/apache/spark/streaming/dstream/DStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-8_2.11/2.2.2/spark-streaming-kafka-0-8_2.11-2.2.2-sources.jar!/org/apache/spark/streaming/kafka/OffsetRange.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.2/spark-core_2.11-2.2.2-sources.jar!/org/apache/spark/rdd/RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5149">
+          <caret line="271" column="29" lean-forward="true" selection-start-line="271" selection-start-column="29" selection-end-line="271" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/zookeeper/SparkStreamingDirectWithZooPersit.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
@@ -546,14 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.2.2/spark-streaming_2.11-2.2.2-sources.jar!/org/apache/spark/streaming/StreamingContext.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
@@ -570,36 +640,22 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.2.2/spark-streaming_2.11-2.2.2-sources.jar!/org/apache/spark/streaming/dstream/InputDStream.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.2/spark-core_2.11-2.2.2-sources.jar!/org/apache/spark/rdd/RDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-743">
-          <caret line="271" column="29" lean-forward="true" selection-start-line="271" selection-start-column="29" selection-end-line="271" selection-end-column="29" />
+        <state relative-caret-position="399">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.2.2/spark-streaming_2.11-2.2.2-sources.jar!/org/apache/spark/streaming/dstream/DStream.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
+        <state relative-caret-position="570">
           <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-8_2.11/2.2.2/spark-streaming-kafka-0-8_2.11-2.2.2-sources.jar!/org/apache/spark/streaming/kafka/KafkaUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="6821">
           <caret line="396" column="50" selection-start-line="396" selection-start-column="50" selection-end-line="396" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-8_2.11/2.2.2/spark-streaming-kafka-0-8_2.11-2.2.2-sources.jar!/org/apache/spark/streaming/kafka/OffsetRange.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -613,20 +669,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/zookeeper/SparkStreamingDirectWithZooPersit.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/exactly/Test.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+        <state relative-caret-position="152">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
           <folding>
-            <element signature="e#32#58#0" expanded="true" />
+            <element signature="e#30#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scalikejdbc/scalikejdbc-core_2.11/3.2.0/scalikejdbc-core_2.11-3.2.0.jar!/scalikejdbc/SQL.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/exactly/KafkaConsumerIdempotent.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="12" column="19" selection-start-line="12" selection-end-line="13" />
+          <folding>
+            <element signature="e#30#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-8_2.11/2.2.2/spark-streaming-kafka-0-8_2.11-2.2.2-sources.jar!/org/apache/spark/streaming/kafka/OffsetRange.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/exactly/KafkaOffsetTransanction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding>
+            <element signature="e#32#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/Config.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="190">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/zookeeper/SparkStreamingDirectWithZooPersit.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="72" column="50" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="50" />
+          <folding>
+            <element signature="e#32#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/keyfunc/UpdateStateByKey.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="19" column="82" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="19" selection-end-column="82" />
+          <folding>
+            <element signature="e#30#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/keyfunc/reduceByKeyAndWindow.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="e#30#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.2.2/spark-streaming_2.11-2.2.2-sources.jar!/org/apache/spark/streaming/dstream/PairDStreamFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <caret line="229" column="6" selection-start-line="229" selection-start-column="6" selection-end-line="229" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/keyfunc/gbk.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/keyfunc/SomeTransformationOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="e#30#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.2/spark-core_2.11-2.2.2-sources.jar!/org/apache/spark/rdd/RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="1859" column="8" selection-start-line="1859" selection-start-column="8" selection-end-line="1859" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.2/spark-core_2.11-2.2.2-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="612" column="6" selection-start-line="612" selection-start-column="6" selection-end-line="612" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/keyfunc/CombineByKey.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="e#30#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/keyfunc/AggregateByKey.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#30#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ltxhxpdd/SparkOffsetUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="77" column="28" lean-forward="true" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+          <folding>
+            <element signature="e#22#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
